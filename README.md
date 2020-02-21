@@ -32,7 +32,7 @@ cat > servers.list
          server3:port3
         (ctrl+d)
         
-$ ./SSLexpiryPredictions.sh -c server.list
+$ ./SSLexpiryPredictions.sh -c servers.list
 ```
 
 > Run the script by providing the certificate location and extention, incase, it is other than .crt. 
